@@ -1,0 +1,5 @@
+This code shows the comparision plot for 
+i) constant time step Forward Euler method
+ii) Adaptive time step Bogacki-Shampine method
+
+with the exact solution
