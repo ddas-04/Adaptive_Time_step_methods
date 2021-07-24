@@ -95,7 +95,7 @@ while tn<t_end:
 			sum_a_k=0
 			j=i0
 			for i1 in range(j):
-				sum_a_k=sum_a_k+a[i0][i1]
+				sum_a_k=sum_a_k+a[i0][i1]*k[i1]
 			y_int=yn+hn*sum_a_k
 			k[i0]=f(t_int,y_int)
 			del_y=del_y+b[i0]*k[i0]
